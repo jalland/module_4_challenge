@@ -1,0 +1,123 @@
+
+header{
+    width:"100%";
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+
+}
+
+.introSlide{
+    position: relative;
+}
+
+
+.introSlide h1{
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.introSlide p{
+    text-align: center;
+    font-size: 24px;
+    margin-left:250px;
+    margin-right:250px;
+
+}
+
+h3{
+    margin-top:100px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: left;
+    font-size: 48px;
+}
+
+
+
+.viewHighScore{
+    font-size: 24px;
+}
+.time{
+    position:relative;
+    font-size: 24px;
+    color:red;
+    display:inline;
+}
+
+.container{
+    margin-top:50px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: left;
+    display:block;
+}
+
+.answerButton{
+    background-color: darkblue;
+    color:white;
+    font-size:36px;
+    width:40%;
+    display:block;
+    padding:10px;
+    margin:10px;
+    text-align: left;
+    
+}
+
+.answerButton:hover{
+    background-color: rgb(155, 17, 155);
+}
+
+.centeredButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allDoneSlide{
+    text-align: left;
+    font-size: 30px;
+    margin-left:250px;
+    margin-right:250px;
+}
+
+.submitButton{
+    background-color: purple;
+    color:white;
+    font-size: 18px;
+}
+
+h5{
+    margin-top:100px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: left;
+    font-size: 48px;
+}
+
+ol{
+    margin-top:0px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: left;
+    background-color: rgb(237, 187, 227);
+}
+
+.container-back-highscores{
+    margin-left:250px;
+    margin-right:250px;
+    display:flex;
+    justify-content: left;
+}
+
+.clear-highscores-button{
+    margin-left:10px;
+}
+
+
+
+

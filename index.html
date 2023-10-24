@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Quiz</title>
+  </head>
+  <header>
+      <a class="viewHighScore" href="#">View High Scores</a>
+      <div class="time" >Time=60</div>
+  </header>
+  <body>
+    <div class="introSlide">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds! 
+      </p>
+      <div class='centeredButton' >      
+        <button class="startButton" style="font-size:16px; width:10%;text-align:center;">Start Quiz</button>
+      </div>
+    </div>
+
+    <h3 style="display:none;">"Commonly used data types DO Not Include:"</h3>
+    <div class="container" style="display:none;">
+        <button id="button1" class="answerButton">
+            1. strings
+        </button>
+        <button id="button2" class="answerButton">
+            2. booleans
+        </button>
+        <button id="button3" class="answerButton">
+            3. alerts
+        </button>
+        <button id="button4" class="answerButton">
+            4. numbers
+        </button>
+    </div>
+
+    <div class="allDoneSlide" style="display:none;">
+      <h4>
+        All done!
+      </h4>
+      <p class="finalScore">
+      </p>
+      <span style="font-size:18px;">Enter initials:</span>
+      <input style="height:24px;" class="initials">
+    </input>
+    <button class="submitButton">
+      Submit
+    </button>
+    </div>
+    <div class="container-viewHighscores">
+      <h5 style="display:none" class="h5Text">
+        High Scores
+      </h5>
+      <ol class="highscoresList" style="background-color:rgb(215, 190, 215)">
+      </ol>
+    </div>
+
+    <div class="container-back-highscores" style="display:none;">
+      <button class="go-back-button">
+        Go Back
+      </button>
+      <button class="clear-highscores-button">
+        Clear Highscores
+      </button>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
