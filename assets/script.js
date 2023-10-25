@@ -1,12 +1,14 @@
 //Possible values are 1-4
 correctAnswer = [3,3,4,3,4]
-secondsLeft = 60
+
+//Questions and answers written out
 questionText = ["Commonly used data types DO Not Include:","The condition in an if/else statement is enclosed with _______.","Arrays in Javascript can be used to store ________.","String values must be enclosed within _______ when being assigned to variables.","A very useful tool used during development and debugging for printing content to the debugger is:"]
 button1Text = ["1. strings","1. quotes","1. numbers and strings","1. commas","1. Javascript"]
 button2Text = ["2. booleans","2. curly brackets","2. other arrays","2. curly brackets","2. terminal/bash"]
 button3Text = ["3. alerts","3. parenthesis","3. booleans","3. quotes","3. for loops"]
 button4Text = ["4. numbers","4. square brackets","4. all of the above","4. parenthesis","4. console.log"]
 
+//All of the selectors from the HTML tags
 var container = document.querySelector(".container");
 var button1 = document.querySelector("#button1")
 var button2 = document.querySelector("#button2")
@@ -26,13 +28,14 @@ var clearHighscoresButton = document.querySelector(".clear-highscores-button")
 var containerBackHighscores = document.querySelector(".container-back-highscores")
 var h5Text = document.querySelector(".h5Text")
 
+//Initialize variables
 count = 0
 var secondsLeft = 60;
+initialsArray = []
+scoreArray = []
 var wrongRight = document.createElement("wrongRight");
 document.body.appendChild(wrongRight);
 
-initialsArray = []
-scoreArray = []
 
 //---Functions and Listeners below--------------------------------
 //Function that controls the seconds clock counter
@@ -46,8 +49,6 @@ function setTime() {
       // Stops execution of action at set interval
       clearInterval(timerInterval);
       finalScore();
-
-      // Calls function to create and append image
     }
   }, 1000);
 }
