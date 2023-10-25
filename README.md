@@ -7,6 +7,7 @@ This module has a coding quiz. When pressing start, the seconds clock will begin
 # Deployment
 
 # Screenshot
+<img width="1256" alt="Screen Shot 2023-10-25 at 1 08 45 PM" src="https://github.com/jalland/module_4_challenge/assets/15932648/4321f4d2-cddb-43d2-8ea4-2f50fa3aab37">
 
 
 # User Story
